@@ -2,6 +2,7 @@ import React from "react";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
+import Marquee from "./ui/animata/marquee";
 
 const Footer = () => {
   return (

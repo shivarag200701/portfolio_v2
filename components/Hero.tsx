@@ -37,10 +37,12 @@ const Hero = () => {
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Ideas into Digital Realities"
+            words="Bringing Ideas to Life Through Thoughtful, Scalable Software"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Shiva, a fullstack developer
+            Hi, I&apos;m Shiva, a fullstack developer passionate about building
+            impactful products, contributing to open source, and exploring
+            AI-driven solutions.
           </p>
           <MagicButton
             title="Show my work"

@@ -11,9 +11,9 @@ const Approach = () => {
       </h1>
       <div className="flex flex-col md:flex-row my-20 items-center justify-center gap-4">
         <Card
-          title="Planning and Strategy"
+          title="Planning & Strategy"
           icon={<AceternityIcon order="1" />}
-          desc="I start by understanding your business goals and objectives. I then create a detailed plan of action to achieve those goals."
+          desc="I start by analyzing the problem and planning the best strategy to solve it."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -21,12 +21,12 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Nisha is Munni"
+          title="Build & Validate"
           icon={<AceternityIcon order="2" />}
-          desc="I then create a detailed plan of action to achieve those goals."
+          desc="Then, I build and test iteratively to ensure each part works as intended."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
+            animationSpeed={5.1}
             containerClassName="bg-blue-600"
             // colors={[
             //   [236, 72, 153],
@@ -36,12 +36,12 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Munni is Aditi"
+          title="Polish & Prepare"
           icon={<AceternityIcon order="3" />}
-          desc="I then create a detailed plan of action to achieve those goals."
+          desc="Finally, I refine the solution for performance, scalability, and long-term use."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
+            animationSpeed={5.1}
             containerClassName="bg-indigo-600"
             colors={[[125, 211, 252]]}
           />

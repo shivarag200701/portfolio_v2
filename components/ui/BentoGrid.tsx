@@ -8,6 +8,7 @@ import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import Marquee from "./animata/marquee";
 
 export const BentoGrid = ({
   className,
@@ -117,27 +118,44 @@ export const BentoGridItem = ({
           {id === 2 && <GlobeDemo />}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:right-2">
-              <div className="flex flex-col gap-3 lg:gap-8 ">
-                {["React.js", "Next.js", "Typescript"].map((item) => (
-                  <span
-                    key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounged-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+              <div className="flex flex-col gap-3 lg:gap-8">
+                <Marquee vertical speed={20} pauseOnHover>
+                  {[
+                    "React.js",
+                    "Next.js",
+                    "Typescript",
+                    "Javascript",
+                    "Flask",
+                    "FastAPI",
+                  ].map((item) => (
+                    <span
+                      key={item}
+                      className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                  {/* <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" /> */}
+                </Marquee>
               </div>
-              <div className="flex flex-col gap-3 lg:gap-8 ">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
-                {["React.js", "Next.js", "Typescript"].map((item) => (
-                  <span
-                    key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounged-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
+              <div className="flex flex-col gap-3 lg:gap-8">
+                <Marquee vertical reverse speed={20} pauseOnHover>
+                  {[
+                    "Java",
+                    "Python",
+                    "MySQL",
+                    "MongoDB",
+                    "Redis",
+                    "Docker",
+                  ].map((item) => (
+                    <span
+                      key={item}
+                      className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </Marquee>
               </div>
             </div>
           )}
