@@ -100,13 +100,17 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none pointer-events-none absolute -top-0.5 -left-0.5 -z-1 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className="relative z-20 text-sm md:text-lg leading-[1.6] font-normal text-neutral-800 dark:text-white">
+              <span className="relative z-20 text-sm md:text-lg leading-[1.6] font-normal text-neutral-800 dark:text-white min-h-[100px]">
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3">
-                    <img src="/profile.svg" alt="profile" />
+                    <img
+                      src={item.img}
+                      alt="profile"
+                      className="w-10 h-10 rounded-full"
+                    />
                   </div>
                   <div className="flex flex-col gap-1">
                     <span className="text-xl leading-[1.6] font-bold text-neutral-500 dark:text-white">

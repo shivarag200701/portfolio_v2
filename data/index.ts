@@ -107,33 +107,24 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Shiva has been an outstanding software engineering intern on our team. He consistently demonstrates exceptional technical skills across both front-end and back-end development. Beyond his exceptional engineering ability, Shiva stands out for his professionalism, excellent communication, and genuine passion for coding and building technology. He's a reliable team player with a great work ethic, always willing to go the extra mile and take initiative in solving problems independently. It’s been a real pleasure having him on the team.",
+    name: "Bilal Soufan",
+    img: "/Bilal.png",
+    title: "CEO-Memory",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Shiva has been a valuable contributor to the Void project, bringing both initiative and technical depth. His work on implementing a robust sliding-window rate limiter for LLM requests significantly improved system reliability, helping us manage API usage effectively and avoid costly overages. He approached the problem thoughtfully, integrated it cleanly with existing services, and even added user-configurable settings and notifications. Shiva’s contributions demonstrated a strong understanding of backend architecture, user experience, and collaborative open source development.",
+    name: "Andrew Pareles",
+    img: "/andrew.png",
+    title: "Maintainer, Void",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Shiva has been an outstanding software engineering intern on our team. He consistently demonstrates exceptional technical skills across both front-end and back-end development. Beyond his exceptional engineering ability, Shiva stands out for his professionalism, excellent communication, and genuine passion for coding and building technology. He's a reliable team player with a great work ethic, always willing to go the extra mile and take initiative in solving problems independently. It’s been a real pleasure having him on the team.",
+    name: "Bilal Soufan",
+    img: "/Bilal.png",
+    title: "CEO-Memory",
   },
 ];
 
@@ -205,6 +196,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/shivarag200701",
   },
   {
     id: 2,
@@ -213,5 +205,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/shiva-raghav/",
   },
 ];
