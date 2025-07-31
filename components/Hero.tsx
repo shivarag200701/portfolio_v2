@@ -48,6 +48,8 @@ const Hero = () => {
             title="Show my work"
             icon={<FaLocationArrow />}
             position="right"
+            otherClasses="!bg-[#161831]"
+            handleClick={() => {}}
           />
         </div>
       </div>
