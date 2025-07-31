@@ -114,7 +114,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Shiva has been a valuable contributor to the Void project, bringing both initiative and technical depth. His work on implementing a robust sliding-window rate limiter for LLM requests significantly improved system reliability, helping us manage API usage effectively and avoid costly overages. He approached the problem thoughtfully, integrated it cleanly with existing services, and even added user-configurable settings and notifications. Shiva’s contributions demonstrated a strong understanding of backend architecture, user experience, and collaborative open source development.",
+      "Shiva has been a valuable contributor to the Void project, bringing both initiative and technical depth. His work on implementing a robust sliding-window rate limiter for LLM requests significantly improved system reliability, helping us manage API usage effectively and avoid costly overages. He approached the problem thoughtfully, integrated it cleanly with existing services, and even added user-configurable settings and notifications. Shiva’s contributions demonstrated a strong understanding of backend architecture, user experience, and collaborative open source development .",
     name: "Andrew Pareles",
     img: "/andrew.png",
     title: "Maintainer, Void",
