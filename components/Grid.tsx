@@ -1,7 +1,5 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
-import { FaLocationArrow } from "react-icons/fa6";
-import { section } from "motion/react-client";
 import { gridItems } from "@/data";
 
 const Grid = () => {

@@ -2,8 +2,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa6";
+import { Button } from "./ui/Movingborder";
 
 const Hero = () => {
   return (
@@ -44,13 +43,13 @@ const Hero = () => {
             impactful products, contributing to open source, and exploring
             AI-driven solutions.
           </p>
-          <MagicButton
-            title="Show my work"
-            icon={<FaLocationArrow />}
-            position="right"
-            otherClasses="!bg-[#161831]"
-            handleClick={() => {}}
-          />
+          <Button
+            borderRadius="2rem"
+            className="flex-1 border-2 border-neutral-200 dark:border-slate-800 w-full h-15 px-10"
+            duration={Math.random() * 10000 + 10000}
+          >
+            <h1>Portfolio Highlights</h1>
+          </Button>
         </div>
       </div>
     </div>
