@@ -9,7 +9,7 @@ const Experience = () => {
         My <span className="text-[#CBACF9]">work experience</span>
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 lg:grid-rows-2 grid-cols-1 gap-10">
-        {workExperience.map(({ id, title, desc, className, thumbnail }) => (
+        {workExperience.map(({ id, title, desc, thumbnail }) => (
           <Button
             key={id}
             borderRadius="2rem"
