@@ -23,6 +23,8 @@ const eslintConfig = [
       "no-unused-labels": "off",
       "no-unused-imports": "off",
       "no-unused-imports-ts": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "@next/next/no-img-element": "off",
     },
   },
 ];
